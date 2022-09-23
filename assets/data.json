@@ -1,0 +1,203 @@
+[
+  {
+    "id": "001",
+    "name": "Смарт-часы Xiaomi Watch S1 Active GL BHR5381GL белый",
+    "img": "./assets/images/Xiaomi-Watch-S1-Active-GL-BHR5381GL.jpg",
+    "brand": "Xiaomi",
+    "residue": "4",
+    "frame": "круглая",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "NFC"
+    ],
+    "color": "белый",
+    "caseSize": "41",
+    "price": "12990",
+    "year": "2020",
+    "bestseller": "true"
+  },
+  {
+    "id": "002",
+    "name": "Умные часы Garmin Fenix 6S белый",
+    "img": "./assets/images/Garmin-Fenix-6S.jpg",
+    "brand": "Garmin",
+    "residue": "1",
+    "frame": "круглая",
+    "interface": [
+      "GPS",
+      "NFC"
+    ],
+    "color": "белый",
+    "caseSize": "42",
+    "price": "69990",
+    "year": "2018"
+  },
+  {
+    "id": "003",
+    "name": "Умные часы GEOZON Fly розовый",
+    "img": "./assets/images/GEOZON-Fly.jpg",
+    "brand": "GEOZON",
+    "residue": "9",
+    "frame": "круглая",
+    "interface": "Bluetooth",
+    "color": "розовый",
+    "caseSize": "40",
+    "price": "2390",
+    "year": "2021"
+  },
+  {
+    "id": "004",
+    "name": "Умные часы HUAWEI WATCH GT 3 Active черный",
+    "img": "./assets/images/HUAWEI-WATCH-GT-3-Active.jpg",
+    "brand": "HUAWEI",
+    "residue": "3",
+    "frame": "круглая",
+    "interface": [
+      "Bluetooth",
+      "GPS"
+    ],
+    "color": "черный",
+    "caseSize": "41",
+    "price": "17990",
+    "year": "2022"
+  },
+  {
+    "id": "005",
+    "name": "Смарт-часы HUAWEI Watch Fit TIA-B09 черный",
+    "img": "./assets/images/HUAWEI-Watch-Fit-TIA-B09.jpg",
+    "brand": "HUAWEI",
+    "residue": "3",
+    "frame": "прямоугольная",
+    "interface": "GPS",
+    "color": "черный",
+    "caseSize": "45",
+    "price": "6990",
+    "year": "2020",
+    "bestseller": "true"
+  },
+  {
+    "id": "006",
+    "name": "Смарт-часы Xiaomi Mi Watch Lite REDMIWT02 синий",
+    "img": "./assets/images/Xiaomi-Mi-Watch-Lite-REDMIWT02.jpg",
+    "brand": "Xiaomi",
+    "residue": "11",
+    "frame": "прямоугольная",
+    "interface": "GPS",
+    "color": "синий",
+    "caseSize": "41",
+    "price": "4590",
+    "year": "2022"
+  },
+  {
+    "id": "007",
+    "name": "Умные часы Apple Watch Series 3 спортивный ремешок серый космос",
+    "img": "./assets/images/Apple-Watch-Series-3-gray.jpg",
+    "brand": "Apple",
+    "residue": "1",
+    "frame": "прямоугольная",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "color": "серый",
+    "caseSize": "42",
+    "price": "20990",
+    "year": "2021"
+  },
+  {
+    "id": "008",
+    "name": "Умные часы Apple Watch Series 3 спортивный ремешок серебристый",
+    "img": "./assets/images/Apple-Watch-Series-3-silver.jpg",
+    "brand": "Apple",
+    "residue": "1",
+    "frame": "прямоугольная",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "color": "серебристый",
+    "caseSize": "42",
+    "price": "23990",
+    "year": "2021",
+    "bestseller": "true"
+  },
+  {
+    "id": "009",
+    "name": "Умные часы Samsung Galaxy Watch4 розовое золото",
+    "img": "./assets/images/Samsung-Galaxy-Watch4.jpg",
+    "brand": "Samsung",
+    "residue": "4",
+    "frame": "круглая",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "color": "золотой",
+    "caseSize": "40",
+    "price": "17990",
+    "year": "2022"
+  },
+  {
+    "id": "010",
+    "name": "Умные часы Samsung Galaxy Watch4 Classic серебристый",
+    "img": "./assets/images/Samsung-Galaxy-Watch4-Classic.jpg",
+    "brand": "Samsung",
+    "residue": "6",
+    "frame": "круглая",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "color": "серебристый",
+    "caseSize": "40",
+    "price": "22490",
+    "year": "2022",
+    "bestseller": "true"
+  },
+  {
+    "id": "011",
+    "name": "Умные часы Samsung Galaxy Watch4 Classic черный",
+    "img": "./assets/images/Samsung-Galaxy-Watch4-Classic-black.jpg",
+    "brand": "Samsung",
+    "residue": "1",
+    "frame": "круглая",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "color": "черный",
+    "caseSize": "46",
+    "price": "25990",
+    "year": "2022"
+  },
+  {
+    "id": "012",
+    "name": "Умные часы Apple Watch Nike SE спортивный ремешок серебристый Nike",
+    "img": "./assets/images/Apple-Watch-Nike-SE.jpg",
+    "brand": "Apple",
+    "residue": "5",
+    "frame": "прямоугольная",
+    "interface": [
+      "Bluetooth",
+      "GPS",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "color": "серебристый",
+    "caseSize": "44",
+    "price": "29990",
+    "year": "2020",
+    "bestseller": "true"
+  }
+]
