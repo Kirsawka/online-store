@@ -1,0 +1,45 @@
+.cart-icon {
+    width: 35px;
+    height: 35px;
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.cart-wrapper {
+    position: relative;
+}
+
+.counter-wrapper {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 23px;
+    bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.cart__counter {
+    color: #4c1e87;
+    font-size: 20px;
+}
+
+.empty {
+    display: none;
+}
+
+.counter-wrapper.full {
+    width: 140px;
+    left: -40px;
+    height: 40px;
+    border-radius: 5px;
+    bottom: 23px;
+    text-align: center;
+}
+
+.cart__counter.full {
+    font-size: 15px;
+}

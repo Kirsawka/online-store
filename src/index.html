@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>SmartWatches</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container header-container">
+    <h1 class="header__title">SmartWatches</h1>
+
+    <div class="search">
+      <svg class="search__loupe-icon" id="search-start">
+        <use href="./assets/sprite.svg#loupe"></use>
+      </svg>
+      <input autocomplete="off" autofocus class="search__input" id="search" placeholder="cмарт-часы apple"
+             type="text">
+      <svg class="search__cross-icon" id="search-reset">
+        <use href="./assets/sprite.svg#cross"></use>
+      </svg>
+    </div>
+
+    <div class="cart-wrapper" id="cart-wrapper">
+      <svg class="cart-icon" id="cart-icon">
+        <use href="./assets/sprite.svg#shopping-cart"></use>
+      </svg>
+
+      <div class="counter-wrapper empty" id="counter-wrapper">
+        <span class="cart__counter" id="cart-counter"></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+    <div class="main-container">
+
+      <div class="filters" id="filters">
+
+        <div class="filter" id="brand">
+          <h2 class="filter__subtitle">Производитель</h2>
+          <div class="filter__btn-wrapper">
+            <button class="filter__button" id="Samsung">Samsung</button>
+            <button class="filter__button" id="Apple">Apple</button>
+            <button class="filter__button" id="HUAWEI">HUAWEI</button>
+            <button class="filter__button" id="GEOZON">GEOZON</button>
+            <button class="filter__button" id="Garmin">Garmin</button>
+            <button class="filter__button" id="Xiaomi">Xiaomi</button>
+          </div>
+        </div>
+
+        <div class="filter" id="caseSize">
+          <h2 class="filter__subtitle">Корпус</h2>
+          <div class="filter__btn-wrapper">
+            <button class="filter__button" id="40">40 мм</button>
+            <button class="filter__button" id="41">41 мм</button>
+            <button class="filter__button" id="42">42 мм</button>
+            <button class="filter__button" id="44">44 мм</button>
+            <button class="filter__button" id="45">45 мм</button>
+            <button class="filter__button" id="46">46 мм</button>
+          </div>
+        </div>
+
+        <div class="filter" id="color">
+          <h2 class="filter__subtitle">Цвет</h2>
+          <div class="filter__btn-wrapper">
+            <button class="filter__button" id="белый">Белый</button>
+            <button class="filter__button" id="розовый">Розовый</button>
+            <button class="filter__button" id="черный">Черный</button>
+            <button class="filter__button" id="синий">Синий</button>
+            <button class="filter__button" id="серый">Серый</button>
+            <button class="filter__button" id="серебристый">Серебристый</button>
+            <button class="filter__button" id="золотой">Золотой</button>
+          </div>
+        </div>
+
+        <div class="filter">
+          <h2 class="filter__subtitle">Цена &#8381;</h2>
+          <div class="price-slider" id="price-slider"></div>
+          <div class="slider-wrapper">
+            <div class="min-price" id="min-price"></div>
+            <div class="max-price" id="max-price"></div>
+          </div>
+        </div>
+
+        <div class="filter">
+          <h2 class="filter__subtitle">Размер корпуса</h2>
+          <div class="case-slider" id="case-slider"></div>
+          <div class="slider-wrapper">
+            <div class="min-case" id="min-case"></div>
+            <div class="max-case" id="max-case"></div>
+          </div>
+        </div>
+
+        <div class="filter" id="bestseller">
+          <input class="filter-input" id="filter-input" type="checkbox">
+          <label class="filter-label" for="filter-input" id="filter-label">Только популярные товары</label>
+        </div>
+        <button class="filter__reset-btn" id="filter-reset">CБРОС ФИЛЬТРОВ</button>
+      </div>
+
+      <div class="wrapper">
+        <div class="sort" id="sort">
+
+          <div class="sort-block" id="sort-price">
+            <span class="sort-block__item">По цене</span>
+            <span class="sort-block__arrow" id="price-arrow"></span>
+          </div>
+
+          <div class="sort-block" id="sort-brand">
+            <span class="sort-block__item">По производителю</span>
+            <span class="sort-block__arrow" id="brand-arrow"></span>
+          </div>
+
+          <div class="sort-block" id="sort-year">
+            <span class="sort-block__item">По новизне</span>
+            <span class="sort-block__arrow" id="year-arrow"></span>
+          </div>
+
+          <button class="hard-reset" id="hard-reset">CБРОС НАСТРОЕК</button>
+        </div>
+
+        <div class="content">
+          <p class="no-cards empty"></p>
+          <div class="cards"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="advantages">
+      <div class="advantage">
+        <svg class="car-icon">
+          <use href="./assets/sprite.svg#car"></use>
+        </svg>
+        <h3 class="advantage__subtitle">Удобная доставка</h3>
+        <p class="advantage__text">Мы предлагаем широкий выбор способов получения заказа</p>
+      </div>
+      <div class="advantage">
+        <svg class="marker-icon">
+          <use href="./assets/sprite.svg#marker"></use>
+        </svg>
+        <h3 class="advantage__subtitle">Более 1000 пунктов самовывоза</h3>
+        <p class="advantage__text">Покупки можно забирать где удобно</p>
+      </div>
+      <div class="advantage">
+        <svg class="currency-icon">
+          <use href="./assets/sprite.svg#currency"></use>
+        </svg>
+        <h3 class="advantage__subtitle">Оплата любыми способами</h3>
+        <p class="advantage__text">6 способов оплаты для твоего удобства</p>
+      </div>
+      <div class="advantage">
+        <svg class="shield-icon">
+          <use href="./assets/sprite.svg#shield"></use>
+        </svg>
+        <h3 class="advantage__subtitle">Качественное гарантийное обслуживание</h3>
+        <p class="advantage__text">Поможем с ремонтом товара и предоставим аппарат на замену</p>
+      </div>
+      <div class="advantage">
+        <svg class="clock-icon">
+          <use href="./assets/sprite.svg#clock"></use>
+        </svg>
+        <h3 class="advantage__subtitle">Онлайн-кредит за 5 минут</h3>
+        <p class="advantage__text">Просто и быстро: понадобится только паспорт</p>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <a class="footer__link" href="https://github.com/Kirsawka" target="_blank">Kirsawka</a>
+    <a href="https://rs.school/js/" target="_blank">
+      <svg class="rsslogo-icon">
+        <use href="./assets/sprite.svg#rs_school"></use>
+      </svg>
+    </a>
+    <span class="footer__text">© Rolling Scopes School, 2022</span>
+  </div>
+</footer>
+
+</body>
+
+</html>

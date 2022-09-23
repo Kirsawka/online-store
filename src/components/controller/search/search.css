@@ -1,0 +1,44 @@
+.search {
+    display: flex;
+    width: 60%;
+    position: relative;
+}
+
+.search__input {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1.15;
+    padding: 12px 100px 12px 45px;
+    width: 100%;
+}
+
+.search__loupe-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    fill: #999999;
+}
+
+.search__cross-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    fill: #999999;
+}
+
+@media screen and (max-width: 900px) {
+    .search {
+        max-width: 50%;
+    }
+}
